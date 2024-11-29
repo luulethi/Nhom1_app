@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#03A9F4"
+    android:background="#F25C05"
     tools:context=".activity.ViTienActivity">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/tbViTien"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#008080"
+        android:background="#F25C05"
+
         app:menu="@menu/menu_danhmuc"
         app:navigationIcon="@drawable/ic_left"
         app:navigationIconTint="@color/white">

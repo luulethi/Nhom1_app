@@ -116,7 +116,7 @@
                 android:layout_height="55dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/button_cancel"
+                android:backgroundTint="#FF5722"
                 android:text="Hủy bỏ"
                 android:textAllCaps="false" />
 
@@ -126,7 +126,7 @@
                 android:layout_height="55dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/button_success"
+                android:backgroundTint="#FF5722"
                 android:text="Hoàn thành"
                 android:textAllCaps="false" />
         </LinearLayout>

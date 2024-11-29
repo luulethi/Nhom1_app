@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
+
     android:layout_height="match_parent">
 
     <ScrollView
@@ -39,7 +40,7 @@
                 android:text="Ví Tiền"
                 app:drawableEndCompat="@drawable/ic_right"
                 app:drawableStartCompat="@drawable/ic_wallet"
-                app:drawableTint="@color/color_icon_checked" />
+                app:drawableTint="#FF5722" />
 
             <RelativeLayout
                 android:id="@+id/rlLoaiTienTe"
@@ -55,7 +56,7 @@
                     android:paddingEnd="15dp"
                     android:text="Loại tiền tệ"
                     app:drawableStartCompat="@drawable/ic_coin"
-                    app:drawableTint="@color/color_icon_checked" />
+                    app:drawableTint="#FF5722" />
 
                 <TextView
                     android:id="@+id/txtLoaiTienTe"
@@ -65,7 +66,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:text="VNĐ"
-                    android:textColor="@color/color_icon_checked" />
+                    android:textColor="#FF5722" />
             </RelativeLayout>
 
             <TextView
@@ -80,7 +81,7 @@
                 android:text="Danh mục"
                 app:drawableEndCompat="@drawable/ic_right"
                 app:drawableStartCompat="@drawable/ic_danhmuc"
-                app:drawableTint="@color/color_icon_checked" />
+                app:drawableTint="#FF5722" />
 
             <TextView
                 android:id="@+id/txtDangxuat"
@@ -93,7 +94,7 @@
                 android:text="Đăng Xuất"
                 app:drawableEndCompat="@drawable/ic_right"
                 app:drawableStartCompat="@drawable/ic_lienhe"
-                app:drawableTint="@color/color_icon_checked" />
+                app:drawableTint="#FF5722" />
             <TextView
                 android:id="@+id/txtProfile"
                 android:layout_width="match_parent"
@@ -105,7 +106,7 @@
                 android:text="Profile"
                 app:drawableEndCompat="@drawable/ic_right"
                 app:drawableStartCompat="@drawable/ic_lienhe"
-                app:drawableTint="@color/color_icon_checked" />
+                app:drawableTint="#FF5722" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

@@ -11,10 +11,10 @@
         android:id="@+id/tbDanhMuc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#008080"
+        android:background="#FF5722"
         app:menu="@menu/menu_danhmuc"
         app:navigationIcon="@drawable/ic_left"
-        app:navigationIconTint="@color/white">
+        app:navigationIconTint="#FF5722">
 
         <com.google.android.material.button.MaterialButtonToggleGroup
             android:id="@+id/tgbDanhMuc"
@@ -30,7 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:backgroundTint="#5DB075"
+                android:backgroundTint="#FF9C22"
                 android:elevation="-15dp"
                 android:text="Thu"
                 android:textAllCaps="false"
@@ -41,11 +41,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:backgroundTint="@color/white"
+                android:backgroundTint="#FF9800"
                 android:elevation="10dp"
                 android:text="Chi"
                 android:textAllCaps="false"
-                android:textColor="@color/black" />
+                android:textColor="#EDE2E2" />
         </com.google.android.material.button.MaterialButtonToggleGroup>
     </com.google.android.material.appbar.MaterialToolbar>
 
